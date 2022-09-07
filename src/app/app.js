@@ -12,7 +12,6 @@ const url={
     red:"./img/red.png",
  }
 
-const App=()=>{
  
     const changeHandleCor=(color,url)=>{
         return(
@@ -31,7 +30,6 @@ const App=()=>{
             if(element.id==="red")await changeHandleCor("#ae0617",url.red);
         })
     })
-}
 
-App();
+
 
