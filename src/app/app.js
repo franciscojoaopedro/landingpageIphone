@@ -4,8 +4,8 @@ const header=document.querySelector('header')
 const cirle=document.querySelector('.circle')
 const box=document.querySelector('.box');
 const url={
-    green:"./img/green.png",
-    pink:"./img/pink.png",
+    green:"../../img/green.png",
+    pink:"../../img/pink.png",
     black:"./img/black.png",
     blue:"./img/blue.png",
     white:"./img/white.png",
