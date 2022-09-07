@@ -62,11 +62,18 @@ main section{
 }
 
 .main-text h3{
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+    font-size: 32px;
+
+    padding: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 .main-text p{
-    margin-bottom: 1.5rem;
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 5px;
+    line-height: 1;
+    letter-spacing: 1px;
 }
 
 .main-text h6{
@@ -77,13 +84,14 @@ main section{
 }
 
 .main-text .btn{
-    padding: 10px 25px;
+    padding: 5px 20px;
     background: #0071e3;
     color:#fff;
     border-radius: 20px;
-    font-size: 1.5rem;
+    font-size: 20px;
     font-weight: 700;
     transition: all 0.5s;
+    margin-left: 15px;
 }
 .main-text .btn:hover{
     opacity: .70;
@@ -114,8 +122,25 @@ main section{
 .main-text .content span:hover{
     opacity: .80;
 }
+.box{
+    width:100vh;
+    height: 400px;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 10px 23px #070606;
+}
 
+.box .content{
+    justify-content: center;
+}
+.box h3, h5{
+    text-align: center;
+}
+.box h6{
+    padding-left: 15px;
+    font-weight: 700;
 
+}
 #green{
     background: #384837;
 }

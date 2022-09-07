@@ -2,9 +2,10 @@ const allSpan=document.querySelectorAll("span")
 const imageIphone=document.getElementById("phone")
 const header=document.querySelector('header')
 const cirle=document.querySelector('.circle')
+const box=document.querySelector('.box')
 
 const App=()=>{
-    
+    console.log(box.style)
     const listImage={
         green:src=("../../img/green.png"),
         pink:"../../img/pink.png",
@@ -17,6 +18,7 @@ const App=()=>{
         return(
             cirle.style.background=color,
             header.style.background=color,
+            box.style.boxShadow.color=color,
             imageIphone.src=url
         )
     }
