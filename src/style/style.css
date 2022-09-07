@@ -179,7 +179,11 @@ main section{
     animation: floatIphone 6s ease-in infinite;
     
 }
-
+.btn-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 @keyframes floatIphone {
