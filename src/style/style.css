@@ -12,16 +12,17 @@ body{
     background: #c5e4f0af;
 }
 header{
+    margin: 0;
+    display: block;
     background: #070606;
     padding: 10px 15px;
-    width: 100%; 
-    position: relative;
+    width: 100%;
 }
 
 .navegation{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .navegation .logo{
@@ -31,7 +32,7 @@ header{
 .navegation ul{
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 20px;
 }
 
 .navegation ul li a{
@@ -83,7 +84,7 @@ main section{
 }
 
 .main-text h6{
-    color: #999;
+    color: #29a4a8d2;
     font-size: 1rem;
     margin-bottom: 2rem;
 
@@ -91,7 +92,7 @@ main section{
 
 .main-text .btn{
     padding: 5px 20px;
-    background: #0071e3;
+    background: #0071e3a1;
     color:#fff;
     border-radius: 20px;
     font-size: 18px;
@@ -182,7 +183,7 @@ main section{
 .btn-all{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
@@ -219,5 +220,13 @@ main section{
     }
     .main-img img{
         width: 80vw;    
+    }
+    .navegation ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carrinho{
+        
     }
   }
