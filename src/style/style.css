@@ -6,7 +6,8 @@
     text-decoration: none;
     font-family: sans-serif;
     color: #316697c5;
-
+    
+    
 }
 body{
     background: #c5e4f0af;
@@ -15,7 +16,7 @@ header{
     margin: 0;
     display: block;
     background: #070606;
-    padding: 10px 15px;
+    padding: 5px 15px;
     width: 100%;
 }
 
@@ -138,6 +139,7 @@ main section{
     border-radius: 20px;
     background: #fff;
     box-shadow: 2px 10px 23px #070606;
+    animation: floatIphone 10s ease-in-out infinite;
 }
 
 .box .content{
@@ -212,6 +214,7 @@ main section{
         box-shadow: 2px 10px 23px #070606;
         align-items: center;
         justify-content: center;
+        
     }
     section{
         display: flex;
