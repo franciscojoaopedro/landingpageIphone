@@ -22,7 +22,7 @@ header{
 .navegation{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .navegation .logo{
@@ -32,6 +32,7 @@ header{
 .navegation ul{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     gap: 20px;
 }
 
@@ -204,7 +205,7 @@ main section{
     /* For mobile phones: */
     .box{
         width:80vw;
-        height: 450px;
+        height: 500px;
         max-width: 500px;
         border-radius: 20px;
         background: #fff;
@@ -226,7 +227,7 @@ main section{
         flex-direction: column;
     }
 
-    .carrinho{
-        
+    .content{
+        justify-content: space-evenly;
     }
   }
