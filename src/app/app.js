@@ -24,12 +24,12 @@ const App=()=>{
     }
     allSpan.forEach((element)=>{
         element.addEventListener('click', async() =>{
-            if(element.id==="green")changeHandleCor("#384837",listImage.green);
-            if(element.id==="pink")changeHandleCor("#f8ddd6",listImage.pink);
-            if(element.id==="blue")changeHandleCor("#225f7e",listImage.blue);
-            if(element.id==="black") changeHandleCor("#192028",listImage.black);
-            if(element.id==="white")changeHandleCor("#f7f2ee",listImage.white)
-            if(element.id==="red")changeHandleCor("#ae0617",listImage.red);
+            if(element.id==="green")await changeHandleCor("#384837",listImage.green);
+            if(element.id==="pink")await changeHandleCor("#f8ddd6",listImage.pink);
+            if(element.id==="blue")await changeHandleCor("#225f7e",listImage.blue);
+            if(element.id==="black")await changeHandleCor("#192028",listImage.black);
+            if(element.id==="white")await changeHandleCor("#f7f2ee",listImage.white)
+            if(element.id==="red")await changeHandleCor("#ae0617",listImage.red);
         })
     })
     console.log(cirle.style.background)
