@@ -193,3 +193,27 @@ main section{
         transform: translateY(0px);
     }
 }
+
+
+@media only screen and (max-width: 950px) {
+    /* For mobile phones: */
+    .box{
+        width:80vw;
+        height: 450px;
+        max-width: 500px;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 2px 10px 23px #070606;
+        align-items: center;
+        justify-content: center;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-img img{
+        width: 80vw;    
+    }
+  }
