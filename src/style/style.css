@@ -25,7 +25,6 @@ header{
     width: 50px;
     
 }
-
 .navegation ul{
     display: flex;
     align-items: center;
@@ -49,7 +48,6 @@ header{
 }
 
 /* Main*/
-
 
 main section{
     display: flex;
@@ -145,6 +143,8 @@ main section{
 .main-img img{
     width: 500px;
     transform: rotate(-7deg);
+    animation: floatIphone 6s ease-in infinite;
+    
 }
 
 .circle{
@@ -155,5 +155,19 @@ main section{
     height: 100%;
     background: #445c42;
     clip-path: circle(800px at right 1000px) ;
+    animation: floatIphone 4s ease-in-out infinite;
 
+}
+
+
+@keyframes floatIphone {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
