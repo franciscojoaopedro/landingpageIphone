@@ -16,9 +16,8 @@ const App=()=>{
     }
     const changeHandleCor=(color,url)=>{
         return(
-            cirle.style.background=color,
             header.style.background=color,
-            box.style.boxShadow.color=color,
+            box.style.boxShadow=`2px 10px 23px ${color}`,
             imageIphone.src=url
         )
     }
